@@ -9,6 +9,7 @@ file_path = r"C:/GitHub-repositories/data-lake/python-projects/file-properties/2
 path_obj = pathlib.Path(file_path)
 
 if path_obj.exists():
+    print(f"File Path: {file_path}")  # <-- explicitly show input path
     print(f"File Name: {path_obj.name}")
     print(f"Absolute Path: {path_obj.resolve()}")
     print(f"Parent Directory: {path_obj.parent}")
