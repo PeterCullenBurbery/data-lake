@@ -3,7 +3,7 @@ import pathlib
 import datetime
 
 # File path
-file_path = r"C:\GitHub-repositories\data-lake\rust-projects\file_properties\2025_08_24_19_53_46_669.png"
+file_path = r"C:/GitHub-repositories/data-lake/rust-projects/file_properties/2025_08_24_19_53_46_669.png"
 
 # Use pathlib for easier handling
 path_obj = pathlib.Path(file_path)
